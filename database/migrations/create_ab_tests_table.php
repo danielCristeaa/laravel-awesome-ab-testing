@@ -29,4 +29,4 @@ class CreateAbTestsTable extends Migration
     {
         Schema::dropIfExists('ab_tests');
     }
-};
+}

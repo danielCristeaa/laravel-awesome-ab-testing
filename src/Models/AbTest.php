@@ -6,7 +6,8 @@ use DanielCristeaa\AwesomeAbTesting\Database\Factories\AbTestFactory;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class AbTest extends Model {
+class AbTest extends Model
+{
     use HasFactory;
 
     protected $guarded = [];
@@ -16,7 +17,8 @@ class AbTest extends Model {
         return AbTestFactory::new();
     }
 
-    public function variations() {
+    public function variations()
+    {
         return $this->hasMany(ABVariation::class);
     }
 }

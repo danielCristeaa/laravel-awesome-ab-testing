@@ -2,9 +2,9 @@
 
 namespace DanielCristeaa\AwesomeAbTesting\Tests;
 
+use DanielCristeaa\AwesomeAbTesting\AwesomeAbTestingServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use DanielCristeaa\AwesomeAbTesting\AwesomeAbTestingServiceProvider;
 
 class TestCase extends Orchestra
 {
@@ -27,7 +27,6 @@ class TestCase extends Orchestra
     public function getEnvironmentSetUp($app)
     {
         config()->set('database.default', 'testing');
-
 
         $migration = include __DIR__.'/../database/migrations/create_awesome_ab_testing_table.php.stub';
         $migration->up();

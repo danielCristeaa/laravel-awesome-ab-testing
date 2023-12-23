@@ -32,4 +32,4 @@ class CreateAbVariationsTable extends Migration
     {
         Schema::dropIfExists('a_b_variations');
     }
-};
+}

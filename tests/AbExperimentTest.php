@@ -1,11 +1,10 @@
 <?php
+
 namespace DanielCristeaa\AwesomeAbTesting\Tests\Unit;
 
-use Illuminate\Support\Facades\DB;
-use Illuminate\Foundation\Testing\RefreshDatabase;
-use Illuminate\Foundation\Testing\WithFaker;
-use Orchestra\Testbench\TestCase;
 use DanielCristeaa\AwesomeAbTesting\Models\AbTest;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Orchestra\Testbench\TestCase;
 
 class ABExperimentTest extends TestCase
 {

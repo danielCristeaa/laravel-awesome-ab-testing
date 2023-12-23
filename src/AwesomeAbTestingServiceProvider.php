@@ -2,9 +2,9 @@
 
 namespace DanielCristeaa\AwesomeAbTesting;
 
+use DanielCristeaa\AwesomeAbTesting\Commands\AwesomeAbTestingCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use DanielCristeaa\AwesomeAbTesting\Commands\AwesomeAbTestingCommand;
 
 class AwesomeAbTestingServiceProvider extends PackageServiceProvider
 {
