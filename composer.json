@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "danielcristeaa/laravel-awesome-ab-testing",
+    "description": "A complete package for A/B testing Laravel applications.",
     "keywords": [
-        ":vendor_name",
+        "danielCristeaa",
         "laravel",
-        ":package_slug"
+        "laravel-awesome-ab-testing"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/danielcristeaa/laravel-awesome-ab-testing",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Daniel Cristea",
+            "email": "dani.cristea09@gmail.com",
             "role": "Developer"
         }
     ],
@@ -30,18 +30,17 @@
         "phpstan/extension-installer": "^1.1",
         "phpstan/phpstan-deprecation-rules": "^1.0",
         "phpstan/phpstan-phpunit": "^1.0",
-        "phpunit/phpunit": "^9.5",
-        "spatie/laravel-ray": "^1.26"
+        "phpunit/phpunit": "^9.5"
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories"
+            "DanielCristeaa\\AwesomeAbTesting\\": "src",
+            "DanielCristeaa\\AwesomeAbTesting\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "DanielCristeaa\\AwesomeAbTesting\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -56,10 +55,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "DanielCristeaa\\AwesomeAbTesting\\AwesomeAbTestingServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "AwesomeAbTesting": "DanielCristeaa\\AwesomeAbTesting\\Facades\\AwesomeAbTesting"
             }
         }
     },

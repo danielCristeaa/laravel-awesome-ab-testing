@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace DanielCristeaa\AwesomeAbTesting\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class AwesomeAbTestingCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'laravel-awesome-ab-testing';
 
     public $description = 'My command';
 
